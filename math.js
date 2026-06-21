@@ -9,6 +9,7 @@ function sortear() {
 
     if(valor1 <= valor2){
         alert("O Primeiro Número Não Pode Ser Maior Que O Segundo")
+        return;
     }
 
     const result = Math.floor(Math.random() * (valor2 - valor1 + 1)) +valor1;
