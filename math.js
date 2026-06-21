@@ -6,7 +6,7 @@ function sortear() {
 
     const valor1 = Math.ceil(document.querySelector(".primeiro").value)
     const valor2 = Math.floor(document.querySelector(".max").value)
-    if(valor1>=valor2){
+    if(valor2>=valor1){
         alert("O Primeiro Número Não Pode Ser Menor Que O Segundo" )
     }
     else{
