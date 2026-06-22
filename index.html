@@ -1,22 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sorteador De Números</title>
-</head>
-<body>
-    <header> Sorteie O Seu Ganahador</header>
-    <img src="https://i.pinimg.com/736x/e2/e1/06/e2e1067185cde4ab89e6ffda6cc4fadf.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Miguel Mendes | Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="title">
+      <h1>Miguel Mendes</h1>
 
-    <div class="inputs">
-        <input type= "number" placeholder="0" class="primeiro"> <span>A</span>
-        <input type= "number" placeholder="100" class="max">
-        
-    </div>
-    <button class="botao">Sortear</button>
-  
-</body>
-<script src="math.js"></script>
+      <nav class="chamar">
+        <a href="#inicio">Home</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section id="inicio" class="apresentacao">
+      <h2>Desenvolvedor Front-End</h2>
+      <p class="nome">Miguel Mendes</p>
+      <p>
+        Desenvolvedor Front-End com experiência em HTML, CSS, JavaScript e
+        Firebase. Já desenvolvi projetos para clientes reais, incluindo sistemas
+        de gestão, sites comerciais e aplicações web focadas em resolver
+        problemas de negócios.
+      </p>
+
+      <p class="skills">HTML • CSS • JavaScript • Firebase • Git • GitHub</p>
+
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </section>
+
+    <section class="experiencia">
+      <h2>Experiência</h2>
+
+      <p>
+        • Desenvolvimento de site comercial para salão de beleza (Freelancer)
+      </p>
+
+      <p>
+        • Desenvolvimento de sistema para lista de chá de casa nova com Firebase
+        (Freelancer)
+      </p>
+    </section>
+
+    <section id="projetos">
+<h2 class="titulo-projetos">Projetos Desenvolvidos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="./img/felipe.png" alt="Cardápio Online" />
+
+          <div class="conteudo-card">
+            <h3>Cardápio Online</h3>
+
+            <p>
+              Sistema de cardápio digital para lanchonetes com carrinho de
+              compras, cálculo automático do pedido e integração direta com
+              WhatsApp.
+            </p>
+
+            <a
+              class="link"
+              href="https://luisfelipesantoscarvalho485-source.github.io/Felipe-Lanches/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/marcia.png" alt="Site para Salão" />
+
+          <div class="conteudo-card">
+            <h3>Site para Salão</h3>
+
+            <p>
+              Projeto desenvolvido para cliente real, com foco na divulgação de
+              serviços, captação de contatos e agendamento via WhatsApp.
+              Trabalho freelancer entregue e utilizado comercialmente pelo
+              cliente.
+            </p>
+
+            <a
+              class="link"
+              href="https://luisfelipesantoscarvalho485-source.github.io/Salao-Marcia/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/conversor.png" alt="Site para Salão" />
+
+          <div class="conteudo-card">
+            <h3>Conversor De Real</h3>
+
+            <p>
+              Aplicação desenvolvida com HTML, CSS e JavaScript para conversão de valores
+  em Real (BRL) para Dólar, Euro, Libra e Bitcoin, utilizando uma interface
+  simples e responsiva.
+            </p>
+
+            <a
+              class="link"
+              href="https://luisfelipesantoscarvalho485-source.github.io/criacao/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/cha.png" alt="Site para Salão" />
+
+          <div class="conteudo-card">
+            <h3>Site para Lista De Chá De Casa Nova</h3>
+
+            <p>
+              Sistema desenvolvido para cliente real utilizando Firebase
+              Firestore para sincronização em tempo real dos presentes
+              selecionados. O projeto foi entregue como trabalho freelancer e
+              utilizado pelos convidados durante o evento.
+            </p>
+
+            <a
+              class="link"
+              href="https://casamento-joaquim-lais.netlify.app/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/planilha.png" alt="Site para Salão" />
+
+          <div class="conteudo-card">
+            <h3>Controle De Abastecimento E Manutenção</h3>
+
+            <p>
+              Sistema web para controle de abastecimento e manutenção de
+              máquinas, com armazenamento automático dos dados no navegador,
+              envio de relatórios via WhatsApp e limpeza de registros com um
+              clique.
+            </p>
+
+            <a
+              class="link"
+              href="https://luisfelipesantoscarvalho485-source.github.io/Planilha-Locbel/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/anime.png" alt="Site para Salão" />
+
+          <div class="conteudo-card">
+            <h3>Infos Da Escola Jujutsu (Anime)</h3>
+
+            <p>
+               Projeto desenvolvido para praticar HTML e CSS, apresentando personagens do
+  anime Jujutsu Kaisen em uma interface organizada por cards com imagens,
+  descrições e categorias.
+            </p>
+
+            <a
+              class="link"
+              href="https://luisfelipesantoscarvalho485-source.github.io/Jujutsu-Kaisen-informacoes/"
+              target="_blank"
+            >
+              Ver Projeto →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+
+      <p>Entre em contato comigo:</p>
+
+      <a href="https://wa.me/5521983609954" target="_blank"> WhatsApp </a>
+
+      <br /><br />
+
+      <a
+        href="https://github.com/luisfelipesantoscarvalho485-source"
+        target="_blank"
+      >
+        GitHub
+      </a>
+    </section>
+  </body>
 </html>
